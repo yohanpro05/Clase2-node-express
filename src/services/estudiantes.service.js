@@ -1,4 +1,4 @@
-import { estudiates } from "../data/estudiantes.data";
+import { estudiantes } from "../data/estudiantes.data.js";
 
 export const Agregar_Estudiante = (nuevo) => {
     estudiantes.push(nuevo);
