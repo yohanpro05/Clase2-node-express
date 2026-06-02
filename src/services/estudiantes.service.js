@@ -1,9 +1,4 @@
-// Simulamos la base de datos
-let estudiantes = [
-    { id: 1, nombre: "Ana", nota: 4.5 },
-    { id: 2, nombre: "Luis", nota: 2.8 },
-    { id: 3, nombre: "Marta", nota: 3.9 }
-];
+import { estudiates } from "../data/estudiantes.data";
 
 export const Agregar_Estudiante = (nuevo) => {
     estudiantes.push(nuevo);
